@@ -1,0 +1,11 @@
+.section {
+  height: 100vh;
+  background: url('https://preview.ibb.co/fWrhbJ/hexagon_structure_1g_1633277.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 5em;
+}
+
+.container {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}

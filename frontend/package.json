@@ -1,0 +1,45 @@
+{
+  "name": "online-menu",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Online menu",
+  "scripts": {
+    "start": "webpack-dev-server --inline --port 3000 --config webpack.config.js",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.0",
+    "transform-runtime": "^0.0.0",
+    "jsx-control-statements": "^3.2.5",
+    "style-loader": "^0.18.2",
+    "css-loader": "^0.28.4",
+    "postcss-loader": "^2.0.6",
+    "cross-env": "^5.0.1",
+    "extract-text-webpack-plugin": "^2.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "create-react-class": "^15.6.2",
+    "dateformat": "^2.0.0",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.2",
+    "react-bootstrap-date-picker": "github:maxaggedon/react-bootstrap-date-picker",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-overlays": "^0.7.3",
+    "redux": "^3.7.2",
+    "redux-async-await": "^1.0.1",
+    "redux-persist": "^5.2.2"
+  }
+}

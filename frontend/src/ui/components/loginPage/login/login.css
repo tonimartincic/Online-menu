@@ -1,0 +1,9 @@
+.section {
+  padding-left: 20%;
+}
+
+.well {
+  height: 25em;
+  width: 25em;
+  border-radius: 2em;
+}
